@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+.border{
+    border: solid 3px #000000;
+    padding: 3px;
+    font-weight: bold;
+    background-color: #5c5050cc;
+    border-radius: 20px;
+}
+
+.body_{
+    color: black;
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #000000;
+    padding: 3px;
+    margin: 0 auto;
+    width: 85%;
+    
+    
+}
+.container{
+    margin-top: 3.5;
+}

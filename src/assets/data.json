@@ -1,0 +1,37 @@
+{
+    "DatosPersonales":{ 
+        "nombre":"Benjamin Joel", 
+        "apellido": "Pozo", 
+        "email": "beenjaminp18@gmail.com", 
+        "perfil-profesional":"" 
+    },
+    "datos-academicos":
+        {
+            "organizacion": "Escuela 713",
+            "fecha-egreso": "Cursando el ultimo año",
+            "titulo": "Tecnico en Informatica Profesional y Personal"
+        },
+    "habilidades":[
+                {"habilidad": "Creatividad"},
+                {"habilidad": "Organizacion"},
+                {"habilidad": ""}
+            
+        
+        ],
+        "info-personal":{
+
+
+        },
+        "perfil":{
+            "perfil": "Soy una persona con intenciones de aprender siempre conocimientos nuevos. Trabajo individualmente y grupalmente de manera correcta aportando lo que puedo y lo que se. Estoy dispuesto a trabajar en cualquier momento que se requiera."
+        },
+        "footer": {
+            "contacto": "contacto"
+        },
+        "ExperienciaLaboral": {
+            "experiencia": "Elaborador de páginas web",
+            "anio":"01/2019 - 11/2022"
+            
+        }
+        
+}

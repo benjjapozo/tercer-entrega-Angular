@@ -12,6 +12,6 @@ export class InfoPersonalService {
   obtenerInfoPersonal(): Observable <any> 
   {
     console.log("el servivio funciona");
-    return this.http.get("./assets/datos.json")
+    return this.http.get("./assets/data.json")
   }
 }

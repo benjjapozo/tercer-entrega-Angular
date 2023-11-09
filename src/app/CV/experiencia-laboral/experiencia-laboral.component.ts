@@ -8,14 +8,23 @@ import { ExperienciaLaboralService } from 'src/app/services/experiencia-laboral.
 })
 export class ExperienciaLaboralComponent implements OnInit{
   Experiencialaboral: any;
-  constructor (private miServices:ExperienciaLaboralService){}
-    ngOnInit(): void {
-        this.miServices.obtenerExperienciaLaboral().subscribe(
-          data=>{console.log(data);
-          this.Experiencialaboral=data["Experiencia Laboral"]
-        },
-        )
+ constructor(private ExperienciaLaboralService: ExperienciaLaboralService)  {
+  this.ExperienciaLaboralService.obtenerExperienciaLaboral().subscribe(
+    {
+      next: (data) => {
+        this.Experiencialaboral=data["Experiencia Laboral"];
+        console.log (data);
+      },
+      error: (error) =>{
+        alert("se obtuvo un error");
+        console.error(error)
+      }
     }
+  )
+ }
+ ngOnInit(): void {
+     
+ }
    }
 
   

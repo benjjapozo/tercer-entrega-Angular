@@ -3,28 +3,7 @@
     <fieldset>
         <legend class="border">Habilidades</legend>
         <ul>
-            <div>
-                <p>
-                <ul>
-                    <li>marketing Digital 70%</li>
-                </ul>
-                
-                <p>
-                <ul>
-                    <li>Trading 75%</li>
-                </ul>
-                
-                <p>
-                <ul>
-                    <li>Técnico en computadoras 87%</li>
-                </ul>
-                
-                <p>
-                <ul>
-                    <li>Elaborador en páginas web 95%</li>
-                </ul>
-                
-            </div>
+            <li *ngFor="let item of habilidades">{{item.habilidad}}</li>
         </ul>
     </fieldset>
-    </section>
+</section>

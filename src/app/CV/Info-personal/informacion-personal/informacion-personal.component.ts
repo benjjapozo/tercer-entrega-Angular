@@ -13,8 +13,9 @@ constructor(private miServices:InfoPersonalService){
 
 ngOnInit(): void {
     this.miServices.obtenerInfoPersonal().subscribe(
-      data=>{console.log(data);
-      this.InfoPersonal=data["InfoPersonal"]
+      data=>{console.log(data["DatosPersonales"]);
+      this.InfoPersonal=data["DatosPersonales"];
+      console.log(this.InfoPersonal.nombre)
       },
     )
 }

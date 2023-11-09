@@ -14,7 +14,7 @@ export class PerfilComponent implements OnInit {
   }
   ngOnInit (): void {
     this.miServices.obtenerPerfil().subscribe(
-      data=>{console.log(data);
+      data=>{console.log(data["perfil"]);
       this.Perfil=data["perfil"]
       }
     )

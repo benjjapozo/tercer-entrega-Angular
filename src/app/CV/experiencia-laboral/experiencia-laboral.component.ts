@@ -12,8 +12,8 @@ export class ExperienciaLaboralComponent implements OnInit{
   this.ExperienciaLaboralService.obtenerExperienciaLaboral().subscribe(
     {
       next: (data) => {
-        this.Experiencialaboral=data["Experiencia Laboral"];
-        console.log (data);
+        this.Experiencialaboral=data["ExperienciaLaboral"];
+        console.log (this.Experiencialaboral);
       },
       error: (error) =>{
         alert("se obtuvo un error");

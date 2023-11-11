@@ -27,9 +27,14 @@
     "footer": {
         "contacto": "contacto"
     },
-    "ExperienciaLaboral": [{
-        "experiencia": "Elaborador de páginas web"},
-       { "anio": "01/2019 - 11/2022"
-    }
-]
+    "ExperienciaLaboral": [
+        {
+            "experiencia": "Elaborador de páginas web",
+            "anio": "01/2019 - 11/2022"
+        },
+        {
+            "experiencia": "Elaborador de páginas web 3",
+            "anio": "01/2019 - 11/2022"  
+        }
+    ]
 }

@@ -1,8 +1,9 @@
 <section>
 <fieldset>
     <legend class="border"> Experiencia Laboral </legend>
-    <ul>
-      <li *ngFor="let item of Experiencialaboral">{{item.Experiencialaboral}}</li>
-             </ul>
+    <ul *ngFor="let item of Experiencialaboral">
+      <li >{{item.experiencia}}</li>
+      <li >{{item.anio}}</li>
+    </ul>
 </fieldset>
 </section>
